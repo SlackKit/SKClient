@@ -1,10 +1,4 @@
-# SKClient: SlackKit Client Module
-![Swift Version](https://img.shields.io/badge/Swift-4.0.3-orange.svg)
-![Plaforms](https://img.shields.io/badge/Platforms-macOS,iOS,tvOS,Linux-lightgrey.svg)
-![License MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)
-[![SwiftPM compatible](https://img.shields.io/badge/SwiftPM-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg)](https://github.com/Carthage/Carthage)
-[![CocoaPods compatible](https://img.shields.io/badge/CocoaPods-compatible-brightgreen.svg)](https://cocoapods.org)
+# SKClient has been consolidated into [SlackKit](https://www.github.com/pvzig/SlackKit)![Swift Version]
 
 Create a custom SlackKit client.
 
@@ -30,7 +24,7 @@ pod install
 Add SKClient to your Cartfile:
 
 ```
-github "SlackKit/SKClient"
+github "pvzig/SKClient"
 ```
 and run
 
@@ -49,7 +43,7 @@ import PackageDescription
   
 let package = Package(
 	dependencies: [
-		.package(url: "https://github.com/SlackKit/SKClient.git", .upToNextMinor(from: "4.1.0"))
+		.package(url: "https://github.com/pvzig/SKClient.git", .upToNextMinor(from: "4.1.0"))
 	]
 )
 ```
@@ -78,7 +72,7 @@ class MyClient: Client {
 }
 ```
 
-Pass your custom client to [`SlackKit`](https://www.github.com/SlackKit/SlackKit) when adding an RTM bot:
+Pass your custom client to [`SlackKit`](https://www.github.com/pvzig/SlackKit) when adding an RTM bot:
 
 ```
 let bot = SlackKit()
