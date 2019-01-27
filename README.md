@@ -1,4 +1,4 @@
-# SKClient has been consolidated into [SlackKit](https://www.github.com/pvzig/SlackKit)![Swift Version]
+# SKClient has been consolidated into [SlackKit](https://www.github.com/pvzig/SlackKit)
 
 Create a custom SlackKit client.
 
